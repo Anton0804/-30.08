@@ -3,7 +3,7 @@
 // квадраты.
 
 
-// int SumMidleMatrix(int[,] matrix) 
+// int SumMidleMatrix(int[,] matrix)                   Пример решения
 // {
 //     int result = 0;
 //     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -48,5 +48,18 @@ PrintMatrix(array2D);
 SquareEvenElems(array2D);
 Console.WriteLine();
 PrintMatrix(array2D);
+
+// int[,] ChangeMatrixRndInt(int[,] array)                          Вариант 2
+// {
+//     for (int i = 0; i < array.GetLength(0); i += 2)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j += 2)
+//         {
+//             array[i, j] *= array[i, j];
+//         }
+//     }
+//     return array;
+// }
+
 
 
